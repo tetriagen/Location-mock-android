@@ -65,3 +65,15 @@ tests/LocationPolicyTest.java — тесты значений и границ б
 Документация Android:
 https://developer.android.com/reference/android/location/LocationManager#setTestProviderLocation(java.lang.String,android.location.Location)
 https://developer.android.com/reference/android/location/Location#isMock()
+
+Исследованный образец
+
+Для статического анализа использовался Clockster 10.10.0 (versionCode 101000),
+пакет com.clockster.manager, вариант arm64-v8a.
+Исходный архив: com.clockster.manager-101000_arm64-v8a.xapk
+SHA-256 всего XAPK (не отдельного base.apk):
+219d554c584bba50ec06d26db1cbe53b2c2c5c69e14657c75c6f79ad852712f6
+
+Хеш идентифицирует конкретный исследованный файл. Сам XAPK и извлечённые
+файлы Clockster в репозиторий не включены. Анализ не подтверждает полную
+логику проверок приложения или его сервера.
